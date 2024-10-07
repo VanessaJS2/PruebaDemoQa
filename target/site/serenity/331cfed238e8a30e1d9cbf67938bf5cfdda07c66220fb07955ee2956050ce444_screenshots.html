@@ -1,0 +1,377 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Banistmo</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="450aa7c0a65a85c8291930e8e412856cc16bcabbffe42d0ac23771103bf63b1d.html">: Yo Como Usuario De DemoQA</a></span>
+                > <span class="truncate-60"><a
+                    href="331cfed238e8a30e1d9cbf67938bf5cfdda07c66220fb07955ee2956050ce444.html">: Seguir las instrucciones de los botones </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-10-2024 23:44</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">: Yo Como Usuario De DemoQA</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                yo quiero interactuar con los elementos de la página
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="d6d48eee80c75287670f6d08ab12cd0a4b32e8e15d667705118109b56ec73ab6.html">Buttoms
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">: Seguir las instrucciones de los botones
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="9440aec0747c6e83a7e889d1695be99b7460c17f2e683897ebabf5fc6669bb3c.png" title=" Dado el usuario entra a la pagina de DemoQA" width="1366"/>
+                <img src="9440aec0747c6e83a7e889d1695be99b7460c17f2e683897ebabf5fc6669bb3c.png" title=" vane opens the https://demoqa.com/" width="1366"/>
+                <img src="9440aec0747c6e83a7e889d1695be99b7460c17f2e683897ebabf5fc6669bb3c.png" title=" Dado el usuario entra a la pagina de DemoQA (completed)" width="1366"/>
+                <img src="0f2c99b0b35792e2ecbd397a46bbd6a9ed48feebf4e06365863efc161a231343.png" title=" Cuando el usuario realiza las instrucciones correcta de los botones" width="1366"/>
+                <img src="0f2c99b0b35792e2ecbd397a46bbd6a9ed48feebf4e06365863efc161a231343.png" title=" Vane buttom" width="1366"/>
+                <img src="0f2c99b0b35792e2ecbd397a46bbd6a9ed48feebf4e06365863efc161a231343.png" title=" vane clicks on Primera categor&iacute;a de pruebas" width="1366"/>
+                <img src="466964b95529351a8ff143c72e601922a5c7bfc5cefb5cd5b0880be644a9288a.png" title=" vane clicks on Primera categor&iacute;a de pruebas (completed)" width="1366"/>
+                <img src="466964b95529351a8ff143c72e601922a5c7bfc5cefb5cd5b0880be644a9288a.png" title=" Vane wait" width="1366"/>
+                <img src="d4d3133355ac2c2248896a16be3711ae87a95e208c6db14fa902260ea1b7db64.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="aaece4fc1cbbdc6992b8ffbb8d2423192ec0039cdddf7d39fd4b22643cd3fa04.png" title=" vane clicks on CATEGORIA BUTTONS" width="1366"/>
+                <img src="d1d2a7266632eabead2b9505863ffe5db765655c504c656b80e3b91e96700ec6.png" title=" vane clicks on CATEGORIA BUTTONS (completed)" width="1366"/>
+                <img src="d1d2a7266632eabead2b9505863ffe5db765655c504c656b80e3b91e96700ec6.png" title=" Vane wait" width="1366"/>
+                <img src="14837c9e1015b233749946e4dee3bae99aa0a570d6fcbe0f2cfc59dd55bd1e7c.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="e72387a0e148a60da28db6880b5746cf8944d49ed372acf4ecc9c2424d0e8893.png" title=" Vane wait" width="1366"/>
+                <img src="e72387a0e148a60da28db6880b5746cf8944d49ed372acf4ecc9c2424d0e8893.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="ee809ded0f4b4bae673a205f596299d5bda64e608d44f97f9ed5c71b5cc6cb7a.png" title=" Vane wait" width="1366"/>
+                <img src="ee809ded0f4b4bae673a205f596299d5bda64e608d44f97f9ed5c71b5cc6cb7a.png" title=" Vane buttom" width="1366"/>
+                <img src="ee809ded0f4b4bae673a205f596299d5bda64e608d44f97f9ed5c71b5cc6cb7a.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="ee809ded0f4b4bae673a205f596299d5bda64e608d44f97f9ed5c71b5cc6cb7a.png" title=" Vane buttom" width="1366"/>
+                <img src="4b0f667a628cae3b3b2235c1daa9b545c00dc21efc81e2fe1f2c842e6d0534f8.png" title=" Vane wait" width="1366"/>
+                <img src="7db78bbc26327671bd3e26c9ee628c3bd2edc95c33ee92e2ace086d576eef0ef.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="0d5b729d58e2334ff6c99dc761eee6349b8192ed18d04459d96283a425edae49.png" title=" Vane wait" width="1366"/>
+                <img src="89b118262020f43205c42fbfb260c716005c6f78e26b88a4e6ad27430bc06c41.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="89b118262020f43205c42fbfb260c716005c6f78e26b88a4e6ad27430bc06c41.png" title=" Cuando el usuario realiza las instrucciones correcta de los botones" width="1366"/>
+                <img src="89b118262020f43205c42fbfb260c716005c6f78e26b88a4e6ad27430bc06c41.png" title=" Vane buttom (completed)" width="1366"/>
+                <img src="89b118262020f43205c42fbfb260c716005c6f78e26b88a4e6ad27430bc06c41.png" title=" Entonces el usuario valida que las instrucciones se hayan aplicado correctamente" width="1366"/>
+                <img src="89b118262020f43205c42fbfb260c716005c6f78e26b88a4e6ad27430bc06c41.png" title=" Then button question should be (true)" width="1366"/>
+                <img src="89b118262020f43205c42fbfb260c716005c6f78e26b88a4e6ad27430bc06c41.png" title=" Entonces el usuario valida que las instrucciones se hayan aplicado correctamente (completed)" width="1366"/>
+                <img src="e9ff0b69431ef573d1b966f787e66060d3d4a41de65a67ad55395c2515824c24.png" title=" Dado el usuario entra a la pagina de DemoQA" width="1366"/>
+                <img src="e9ff0b69431ef573d1b966f787e66060d3d4a41de65a67ad55395c2515824c24.png" title=" vane opens the https://demoqa.com/" width="1366"/>
+                <img src="e9ff0b69431ef573d1b966f787e66060d3d4a41de65a67ad55395c2515824c24.png" title=" Dado el usuario entra a la pagina de DemoQA (completed)" width="1366"/>
+                <img src="4bd0bcdf3d0f7ab3962df6c2e5b9eab429bc449ccb9460594bb928cf41cf22d0.png" title=" Cuando el usuario valida los diferentes links" width="1366"/>
+                <img src="4bd0bcdf3d0f7ab3962df6c2e5b9eab429bc449ccb9460594bb928cf41cf22d0.png" title=" Vane links" width="1366"/>
+                <img src="4bd0bcdf3d0f7ab3962df6c2e5b9eab429bc449ccb9460594bb928cf41cf22d0.png" title=" vane clicks on Primera categor&iacute;a de pruebas" width="1366"/>
+                <img src="3e865c95719083e27de813ef072d20a86cf1c2cac4346879dcb0fa7ae2b4d565.png" title=" vane clicks on Primera categor&iacute;a de pruebas (completed)" width="1366"/>
+                <img src="3e865c95719083e27de813ef072d20a86cf1c2cac4346879dcb0fa7ae2b4d565.png" title=" Vane wait" width="1366"/>
+                <img src="6d88219de76102aa1f1aacb7e1fa7d75f364595e7cc9440c8ba84841115c0c05.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="72ca12fe3cec393d29f995fd7643fc7c5f08aeacdb4d620bcaf7843d58f9034f.png" title=" Vane wait" width="1366"/>
+                <img src="b55c87c9807c7ed1290f1596c36482cabb12931aaa81d383f8dbc9dbdd8c9d45.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="b55c87c9807c7ed1290f1596c36482cabb12931aaa81d383f8dbc9dbdd8c9d45.png" title=" vane clicks on CATEGORIA links" width="1366"/>
+                <img src="897012f5941b3981d746e1db503c07af4adbbe6e4e1e2fe474a70544b58bf0e3.png" title=" vane clicks on CATEGORIA links (completed)" width="1366"/>
+                <img src="daaac2a517acda524c8b2aa722408793887ba84d551c4123139700bf190fd81d.png" title=" Vane wait" width="1366"/>
+                <img src="daaac2a517acda524c8b2aa722408793887ba84d551c4123139700bf190fd81d.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="8077d3ce9ff8c992bad80ddc2ff29ca08f89884c8483214ba21b8e1a651249ad.png" title=" vane clicks on OPCION LABEL, CREATED" width="1366"/>
+                <img src="500f0291513d69cb8439a341486fa5b61601c067f3fd3a0272479602bca6e1bb.png" title=" vane clicks on OPCION LABEL, CREATED (completed)" width="1366"/>
+                <img src="500f0291513d69cb8439a341486fa5b61601c067f3fd3a0272479602bca6e1bb.png" title=" Vane wait" width="1366"/>
+                <img src="4b5da2a23bdc73924f8b3d25c38f293321322c8fe2a4a742022caa0e8ed2f9ff.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="4b5da2a23bdc73924f8b3d25c38f293321322c8fe2a4a742022caa0e8ed2f9ff.png" title=" vane clicks on OPCION LABEL, NO CONTENT" width="1366"/>
+                <img src="18c926ba98db0908a8f09f3abe10595f497a191c214be3f746a4a1094e7d0402.png" title=" vane clicks on OPCION LABEL, NO CONTENT (completed)" width="1366"/>
+                <img src="18c926ba98db0908a8f09f3abe10595f497a191c214be3f746a4a1094e7d0402.png" title=" Vane wait" width="1366"/>
+                <img src="975b5b606cd4c0c09d07739ef50032a6af3aecf81d102cbb602aa98edf5276ed.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="975b5b606cd4c0c09d07739ef50032a6af3aecf81d102cbb602aa98edf5276ed.png" title=" vane clicks on OPCION LABEL, MOVED" width="1366"/>
+                <img src="13048de95bd07bbcce2b1952879fc1476c0b3328fe15edaca0a51a836b8f8b68.png" title=" vane clicks on OPCION LABEL, MOVED (completed)" width="1366"/>
+                <img src="13048de95bd07bbcce2b1952879fc1476c0b3328fe15edaca0a51a836b8f8b68.png" title=" Vane wait" width="1366"/>
+                <img src="63ed8fd66ae2fa83a8a9ce393ff0c1e1c396265f6d3eb9a9548fe671fefb6d58.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="63ed8fd66ae2fa83a8a9ce393ff0c1e1c396265f6d3eb9a9548fe671fefb6d58.png" title=" vane clicks on OPCION LABEL, bad-request" width="1366"/>
+                <img src="ca47b6bcf65ed0b8f591819e67599043b7b11c7357278cb14b6dabacad28f3b3.png" title=" vane clicks on OPCION LABEL, bad-request (completed)" width="1366"/>
+                <img src="ca47b6bcf65ed0b8f591819e67599043b7b11c7357278cb14b6dabacad28f3b3.png" title=" Vane wait" width="1366"/>
+                <img src="3feae0aa1b8db36f641bd1352035ec373e1f25104526eb181d81ea97c6a62b76.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="3feae0aa1b8db36f641bd1352035ec373e1f25104526eb181d81ea97c6a62b76.png" title=" vane clicks on OPCION LABEL, unauthorized" width="1366"/>
+                <img src="e5ced90644f75a2d2c456dd40196ac7e169ac5645f6e5d642e7f9f57b67796e1.png" title=" vane clicks on OPCION LABEL, unauthorized (completed)" width="1366"/>
+                <img src="e5ced90644f75a2d2c456dd40196ac7e169ac5645f6e5d642e7f9f57b67796e1.png" title=" Vane wait" width="1366"/>
+                <img src="0a806dc665f9504f4df53169988b891e9cdd4b0cfb09d657ab25a9e647c08112.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="0a806dc665f9504f4df53169988b891e9cdd4b0cfb09d657ab25a9e647c08112.png" title=" vane clicks on OPCION LABEL, forbidden" width="1366"/>
+                <img src="0a625175f82ad55e800132329eefd343c0a11416190c9c26e35f61d430414382.png" title=" vane clicks on OPCION LABEL, forbidden (completed)" width="1366"/>
+                <img src="0a625175f82ad55e800132329eefd343c0a11416190c9c26e35f61d430414382.png" title=" Vane wait" width="1366"/>
+                <img src="8044c16f0c92de095f9f27f0c1a3ac782f203fb22aa413bdc101862f85773b90.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="8044c16f0c92de095f9f27f0c1a3ac782f203fb22aa413bdc101862f85773b90.png" title=" vane clicks on OPCION LABEL, invalid-url" width="1366"/>
+                <img src="923f06ac4b91a1245fe6f6f5637af0983e26588b6993d5858c2b043092c282b0.png" title=" vane clicks on OPCION LABEL, invalid-url (completed)" width="1366"/>
+                <img src="923f06ac4b91a1245fe6f6f5637af0983e26588b6993d5858c2b043092c282b0.png" title=" Vane wait" width="1366"/>
+                <img src="e2d98106a973d58e8fb10a447a91f65914342595c5003e4336640acbc3ee579d.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="e2d98106a973d58e8fb10a447a91f65914342595c5003e4336640acbc3ee579d.png" title=" Cuando el usuario valida los diferentes links" width="1366"/>
+                <img src="e2d98106a973d58e8fb10a447a91f65914342595c5003e4336640acbc3ee579d.png" title=" Vane links (completed)" width="1366"/>
+                <img src="e2d98106a973d58e8fb10a447a91f65914342595c5003e4336640acbc3ee579d.png" title=" Entonces el usuario valida las respuestas de los siguientes links" width="1366"/>
+                <img src="e2d98106a973d58e8fb10a447a91f65914342595c5003e4336640acbc3ee579d.png" title=" Then links question should be (true)" width="1366"/>
+                <img src="4d16d3f2feed3179f290e3e6edae20b76ff8bd6b4891e5b946466013c49619e8.png" title=" Then click link and validate should be (true)" width="1366"/>
+                <img src="4d16d3f2feed3179f290e3e6edae20b76ff8bd6b4891e5b946466013c49619e8.png" title=" vane clicks on OPCION LABEL, HOME" width="1366"/>
+                <img src="e2d98106a973d58e8fb10a447a91f65914342595c5003e4336640acbc3ee579d.png" title=" Then click link and validate should be (true) (completed)" width="1366"/>
+                <img src="be4ffd7b05571ae29a279b14559f8d748c7356cc26ff1579c77a92dc2aca2eaa.png" title=" Then click link and validate should be (true)" width="1366"/>
+                <img src="be4ffd7b05571ae29a279b14559f8d748c7356cc26ff1579c77a92dc2aca2eaa.png" title=" vane clicks on OPCION LABEL, dynamicLink" width="1366"/>
+                <img src="be4ffd7b05571ae29a279b14559f8d748c7356cc26ff1579c77a92dc2aca2eaa.png" title=" Then click link and validate should be (true) (completed)" width="1366"/>
+                <img src="be4ffd7b05571ae29a279b14559f8d748c7356cc26ff1579c77a92dc2aca2eaa.png" title=" Entonces el usuario valida las respuestas de los siguientes links (completed)" width="1366"/>
+                <img src="50f933909726df2bd858285d6d58158e773bc01a7e2cc91f674af2928cbe5368.png" title=" Dado el usuario entra a la pagina de DemoQA" width="1366"/>
+                <img src="50f933909726df2bd858285d6d58158e773bc01a7e2cc91f674af2928cbe5368.png" title=" vane opens the https://demoqa.com/" width="1366"/>
+                <img src="50f933909726df2bd858285d6d58158e773bc01a7e2cc91f674af2928cbe5368.png" title=" Dado el usuario entra a la pagina de DemoQA (completed)" width="1366"/>
+                <img src="b187e01b775db41d382cf5943728611bfca4b6758946fccaae21d22fd5fe700b.png" title=" Cuando el usuario llena el formulario correspondiente" width="1366"/>
+                <img src="b187e01b775db41d382cf5943728611bfca4b6758946fccaae21d22fd5fe700b.png" title=" Vane forms" width="1366"/>
+                <img src="b187e01b775db41d382cf5943728611bfca4b6758946fccaae21d22fd5fe700b.png" title=" vane clicks on SEGUNDA categor&iacute;a de pruebas" width="1366"/>
+                <img src="b283fe42d22db2aeef6774fc98fecbda9a0cfdd9c5f3797576f91ac3e7b4a37a.png" title=" vane clicks on SEGUNDA categor&iacute;a de pruebas (completed)" width="1366"/>
+                <img src="b283fe42d22db2aeef6774fc98fecbda9a0cfdd9c5f3797576f91ac3e7b4a37a.png" title=" Vane wait" width="1366"/>
+                <img src="e6f1baf1d0faebb1d0232dc04058dc5fdb71c99f6357a473b8385b45d117415c.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="e6f1baf1d0faebb1d0232dc04058dc5fdb71c99f6357a473b8385b45d117415c.png" title=" vane clicks on CATEGORIA web tables" width="1366"/>
+                <img src="0d6d10f218c782299cd9b044de42ca232e84d9bdf23a51597a5260c4724b7ab6.png" title=" vane clicks on CATEGORIA web tables (completed)" width="1366"/>
+                <img src="0d6d10f218c782299cd9b044de42ca232e84d9bdf23a51597a5260c4724b7ab6.png" title=" Vane wait" width="1366"/>
+                <img src="0d6d10f218c782299cd9b044de42ca232e84d9bdf23a51597a5260c4724b7ab6.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="72d6e19fb36ce739b43c8a99a492862700e70b67d60d4d018a291cc69e8e7a9e.png" title=" Vane wait" width="1366"/>
+                <img src="5372f20d63e6a30283a907177d6ac28e9fdbd3456b7f90e6ac401771c1124442.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="5372f20d63e6a30283a907177d6ac28e9fdbd3456b7f90e6ac401771c1124442.png" title=" vane enters 'Gloria' into INPUT firstname formulario" width="1366"/>
+                <img src="ea10db20da52677b924656621d76e9c9bf0cc4cd0d3552ada5caf2e221fc177a.png" title=" vane enters 'Gloria' into INPUT firstname formulario (completed)" width="1366"/>
+                <img src="ea10db20da52677b924656621d76e9c9bf0cc4cd0d3552ada5caf2e221fc177a.png" title=" vane enters 'Jaramillo' into INPUT LASTNAME formulario" width="1366"/>
+                <img src="86f19dc89df664236fca0aa2c551adfb38974deec86db3c071687ac3af3bfd82.png" title=" vane enters 'Jaramillo' into INPUT LASTNAME formulario (completed)" width="1366"/>
+                <img src="86f19dc89df664236fca0aa2c551adfb38974deec86db3c071687ac3af3bfd82.png" title=" vane enters 'vane1995@gmail.com' into INPUT EMAIL formulario" width="1366"/>
+                <img src="37b6523286de79b7fb923d8e0c5df0bd63d331dc53fc4af650007cfca2106f9c.png" title=" vane enters 'vane1995@gmail.com' into INPUT EMAIL formulario (completed)" width="1366"/>
+                <img src="37b6523286de79b7fb923d8e0c5df0bd63d331dc53fc4af650007cfca2106f9c.png" title=" vane clicks on Form radio buton mujer" width="1366"/>
+                <img src="1bf7571d5605adf1f3d21bc1870dfc6d11a807d722148e2cc29c11e8d0e9716c.png" title=" vane clicks on Form radio buton mujer (completed)" width="1366"/>
+                <img src="0206d7d7f0d1aae571cf28a683b2356dea0bceb7e2934f529ff408af34db446d.png" title=" vane enters '3111111122' into INPUT DEL CELLNUMBER" width="1366"/>
+                <img src="51d99697711b49398ff35224c6caa3505d9a9a94fbdab044fd9590fbc2cca1e9.png" title=" vane enters '3111111122' into INPUT DEL CELLNUMBER (completed)" width="1366"/>
+                <img src="51d99697711b49398ff35224c6caa3505d9a9a94fbdab044fd9590fbc2cca1e9.png" title=" vane clicks on INPUT DEL BITHDAY" width="1366"/>
+                <img src="976f4864ef50b77fecead0d9e5cf3adfbb578b1c7e02493156f93f8a414d89ac.png" title=" vane clicks on INPUT DEL BITHDAY (completed)" width="1366"/>
+                <img src="976f4864ef50b77fecead0d9e5cf3adfbb578b1c7e02493156f93f8a414d89ac.png" title=" vane clicks on INPUT DEL BITHDAY FORMMONTH" width="1366"/>
+                <img src="8ded262d4cffaa2698366ee448da1693879ed443c283a98c62ecae61ae7b853a.png" title=" vane clicks on INPUT DEL BITHDAY FORMMONTH (completed)" width="1366"/>
+                <img src="8ded262d4cffaa2698366ee448da1693879ed443c283a98c62ecae61ae7b853a.png" title=" vane clicks on INPUT DEL BITHDAY FORMYEARD" width="1366"/>
+                <img src="05d5be2773017b6c39796fefbd8ef52d5515ab24b2c6f31c9166fa02a3e1223a.png" title=" vane clicks on INPUT DEL BITHDAY FORMYEARD (completed)" width="1366"/>
+                <img src="05d5be2773017b6c39796fefbd8ef52d5515ab24b2c6f31c9166fa02a3e1223a.png" title=" Vane wait" width="1366"/>
+                <img src="05d5be2773017b6c39796fefbd8ef52d5515ab24b2c6f31c9166fa02a3e1223a.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="05d5be2773017b6c39796fefbd8ef52d5515ab24b2c6f31c9166fa02a3e1223a.png" title=" vane clicks on INPUT DEL BITHDAY FORMDAY" width="1366"/>
+                <img src="cfdb8190ebe9860f68e90a0b6dd1fd9a061d1cf32ef97171a9754dfaea039cac.png" title=" vane clicks on INPUT DEL BITHDAY FORMDAY (completed)" width="1366"/>
+                <img src="cfdb8190ebe9860f68e90a0b6dd1fd9a061d1cf32ef97171a9754dfaea039cac.png" title=" vane clicks on INPUT DEL BITHDAY READING" width="1366"/>
+                <img src="e47bead9856ca967169817894b78642f0b34f9a608bac1ab1c8e13f453a76f52.png" title=" vane clicks on INPUT DEL BITHDAY READING (completed)" width="1366"/>
+                <img src="e47bead9856ca967169817894b78642f0b34f9a608bac1ab1c8e13f453a76f52.png" title=" vane enters 'ANTIOQUIA' into OPCION FORM, CURRENTADRRES" width="1366"/>
+                <img src="5faa657d583c882aebf12b49a9236cb9aa63203936f15c96e362a94722558e08.png" title=" vane enters 'ANTIOQUIA' into OPCION FORM, CURRENTADRRES (completed)" width="1366"/>
+                <img src="1940a975d6fea3e10b9ce6ce18e7100533ae82cd7183b2a9f17a18560476676c.png" title=" Vane wait" width="1366"/>
+                <img src="6a95680f021206aac9e17459a230de586e35baf0a7f31433c07b8681c1bccc93.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="6a95680f021206aac9e17459a230de586e35baf0a7f31433c07b8681c1bccc93.png" title=" vane clicks on BOTON submit para enviar el formulario diligenciado" width="1366"/>
+                <img src="f102cf85a8922d2cfcad521dbcd0c719af392bf90e3d14ed147a67aee35c388c.png" title=" vane clicks on BOTON submit para enviar el formulario diligenciado (completed)" width="1366"/>
+                <img src="f102cf85a8922d2cfcad521dbcd0c719af392bf90e3d14ed147a67aee35c388c.png" title=" Vane wait" width="1366"/>
+                <img src="3458b75bfb7edb36060e7ae89f72ca49d7becd98340ce7f68813a768fb33eee2.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="dd3384813eb8220ef8427e9bb6a42277ef527d68638b291ca92c2dd4de6dad34.png" title=" Vane forms (completed)" width="1366"/>
+                <img src="dd3384813eb8220ef8427e9bb6a42277ef527d68638b291ca92c2dd4de6dad34.png" title=" Cuando el usuario llena el formulario correspondiente (completed)" width="1366"/>
+                <img src="dd3384813eb8220ef8427e9bb6a42277ef527d68638b291ca92c2dd4de6dad34.png" title=" Entonces el usuario valida el formulario" width="1366"/>
+                <img src="dd3384813eb8220ef8427e9bb6a42277ef527d68638b291ca92c2dd4de6dad34.png" title=" Then formulary question should be (true)" width="1366"/>
+                <img src="1294dfd68ca520008564eaed84774619f3ec9dc4e5e10e601cd31b993b61b581.png" title=" Dado el usuario entra a la pagina de DemoQA" width="1366"/>
+                <img src="1294dfd68ca520008564eaed84774619f3ec9dc4e5e10e601cd31b993b61b581.png" title=" vane opens the https://demoqa.com/" width="1366"/>
+                <img src="1294dfd68ca520008564eaed84774619f3ec9dc4e5e10e601cd31b993b61b581.png" title=" Dado el usuario entra a la pagina de DemoQA (completed)" width="1366"/>
+                <img src="d5a63e55d0f883ba40ef4a35f98bf0bf6195d04c7fd8f8fb34a73644e69b8a74.png" title=" Cuando el usuario hace click en los diferentes modales" width="1366"/>
+                <img src="d5a63e55d0f883ba40ef4a35f98bf0bf6195d04c7fd8f8fb34a73644e69b8a74.png" title=" Vane alerts" width="1366"/>
+                <img src="d5a63e55d0f883ba40ef4a35f98bf0bf6195d04c7fd8f8fb34a73644e69b8a74.png" title=" Vane wait" width="1366"/>
+                <img src="d5a63e55d0f883ba40ef4a35f98bf0bf6195d04c7fd8f8fb34a73644e69b8a74.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="d5a63e55d0f883ba40ef4a35f98bf0bf6195d04c7fd8f8fb34a73644e69b8a74.png" title=" vane clicks on TERCERA categor&iacute;a de pruebas" width="1366"/>
+                <img src="f2e57c032e3e2cd261cdb228fc1c051b628d28bd4ea36b959bd72649b2ae154b.png" title=" vane clicks on TERCERA categor&iacute;a de pruebas (completed)" width="1366"/>
+                <img src="f2e57c032e3e2cd261cdb228fc1c051b628d28bd4ea36b959bd72649b2ae154b.png" title=" Vane wait" width="1366"/>
+                <img src="ac120d6a4688b282f3cc08a5e283b000a518f77381ad28d68ac895bc4580698d.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="90aaa1a5aba3eae722d270dde7c18ad401e3d117693f6dba0f6813b710156078.png" title=" Vane wait" width="1366"/>
+                <img src="90aaa1a5aba3eae722d270dde7c18ad401e3d117693f6dba0f6813b710156078.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="90aaa1a5aba3eae722d270dde7c18ad401e3d117693f6dba0f6813b710156078.png" title=" vane clicks on CATEGORIA ALERT MODAL" width="1366"/>
+                <img src="fd7feeaff86fb0bffb467b878747b7d56338a0e1d69c5d61c665266585f09d32.png" title=" vane clicks on CATEGORIA ALERT MODAL (completed)" width="1366"/>
+                <img src="b05960eb4d91955371c052bdcd1d6f410ecc6641ee36c6a21831bd4877cb16e1.png" title=" Vane wait" width="1366"/>
+                <img src="b05960eb4d91955371c052bdcd1d6f410ecc6641ee36c6a21831bd4877cb16e1.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="91d5f2b25b6c73b452f71eb86a0b045b36d7bee164fd9586542a1bf8dfcdf96c.png" title=" Vane wait" width="1366"/>
+                <img src="91d5f2b25b6c73b452f71eb86a0b045b36d7bee164fd9586542a1bf8dfcdf96c.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="91d5f2b25b6c73b452f71eb86a0b045b36d7bee164fd9586542a1bf8dfcdf96c.png" title=" vane clicks on Boton small modal de alert modal" width="1366"/>
+                <img src="c611109529a1179abbeeff2c45815fbb4cf5ca00b01ec475f42192d592f5f08a.png" title=" vane clicks on Boton small modal de alert modal (completed)" width="1366"/>
+                <img src="c611109529a1179abbeeff2c45815fbb4cf5ca00b01ec475f42192d592f5f08a.png" title=" Vane wait" width="1366"/>
+                <img src="c08eeb6ad08c562cc7620363af77c54524d10c68c99c29900d8b63d02bfb33ec.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="c08eeb6ad08c562cc7620363af77c54524d10c68c99c29900d8b63d02bfb33ec.png" title=" Vane wait" width="1366"/>
+                <img src="c08eeb6ad08c562cc7620363af77c54524d10c68c99c29900d8b63d02bfb33ec.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="c08eeb6ad08c562cc7620363af77c54524d10c68c99c29900d8b63d02bfb33ec.png" title=" vane clicks on BOTON PARA CERRAR ALERTA" width="1366"/>
+                <img src="c3ff97107c67ec7d4f83405a2b5339ed0d7f23ddb51183b881aaa12aab8d9dc7.png" title=" vane clicks on BOTON PARA CERRAR ALERTA (completed)" width="1366"/>
+                <img src="c3ff97107c67ec7d4f83405a2b5339ed0d7f23ddb51183b881aaa12aab8d9dc7.png" title=" Vane wait" width="1366"/>
+                <img src="3d7ce337454b68c82271bccaba73538a30628d60593ef395797ee02e150d45c7.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="3d7ce337454b68c82271bccaba73538a30628d60593ef395797ee02e150d45c7.png" title=" vane clicks on Boton LARGE modal de alert modal" width="1366"/>
+                <img src="3a2f3e516d03907418bb6594813c4f12281f39dcb57a447061ed594953559c62.png" title=" vane clicks on Boton LARGE modal de alert modal (completed)" width="1366"/>
+                <img src="3a2f3e516d03907418bb6594813c4f12281f39dcb57a447061ed594953559c62.png" title=" Vane wait" width="1366"/>
+                <img src="92b455b1c210b80fe37860d8e3e426827b791539eca7334a1f8a9736396cdf84.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="92b455b1c210b80fe37860d8e3e426827b791539eca7334a1f8a9736396cdf84.png" title=" vane clicks on BOTON PARA CERRAR ALERTA" width="1366"/>
+                <img src="22fee9046034e750f87cb610ee916b4e538a94066f1a549c8c8c1f6a2ae31630.png" title=" vane clicks on BOTON PARA CERRAR ALERTA (completed)" width="1366"/>
+                <img src="22fee9046034e750f87cb610ee916b4e538a94066f1a549c8c8c1f6a2ae31630.png" title=" Vane wait" width="1366"/>
+                <img src="a86c195a970250a9f5723b1cdb16fea17a7a2a129254dc5e755660fec830a597.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="a86c195a970250a9f5723b1cdb16fea17a7a2a129254dc5e755660fec830a597.png" title=" Vane alerts (completed)" width="1366"/>
+                <img src="a86c195a970250a9f5723b1cdb16fea17a7a2a129254dc5e755660fec830a597.png" title=" Cuando el usuario hace click en los diferentes modales (completed)" width="1366"/>
+                <img src="a86c195a970250a9f5723b1cdb16fea17a7a2a129254dc5e755660fec830a597.png" title=" Entonces el usuario valida la alerta" width="1366"/>
+                <img src="a86c195a970250a9f5723b1cdb16fea17a7a2a129254dc5e755660fec830a597.png" title=" Then alerts questions should be (true): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.82</span>
+</div>
+</body>
+</html>

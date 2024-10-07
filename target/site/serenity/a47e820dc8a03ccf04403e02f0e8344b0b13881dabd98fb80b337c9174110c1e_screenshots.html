@@ -1,0 +1,246 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Banistmo</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="450aa7c0a65a85c8291930e8e412856cc16bcabbffe42d0ac23771103bf63b1d.html">: Yo Como Usuario De DemoQA</a></span>
+                > <span class="truncate-60"><a
+                    href="a47e820dc8a03ccf04403e02f0e8344b0b13881dabd98fb80b337c9174110c1e.html">: Completar campos del formulario </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-10-2024 23:42</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">: Yo Como Usuario De DemoQA</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                yo quiero interactuar con los elementos de la página
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="cb7aeccee215ffd549b52bee86b072919718f085f5eae7417e9484d299b5cef3.html">Textbox
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">: Completar campos del formulario
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="7a095a9ed36fde6d1ac5f816aa6a87fc6c947a37ad7d8aba4c211e20ffaa2305.png" title=" Dado el usuario entra a la pagina de DemoQA" width="1366"/>
+                <img src="7a095a9ed36fde6d1ac5f816aa6a87fc6c947a37ad7d8aba4c211e20ffaa2305.png" title=" vane opens the https://demoqa.com/" width="1366"/>
+                <img src="7a095a9ed36fde6d1ac5f816aa6a87fc6c947a37ad7d8aba4c211e20ffaa2305.png" title=" Dado el usuario entra a la pagina de DemoQA (completed)" width="1366"/>
+                <img src="64cf054d2ae523c50f79cd84ad2730d21dbe395fa6fae2d76c065377038a5042.png" title=" Cuando el usuario llena todo el formulario" width="1366"/>
+                <img src="64cf054d2ae523c50f79cd84ad2730d21dbe395fa6fae2d76c065377038a5042.png" title=" Vane text box" width="1366"/>
+                <img src="64cf054d2ae523c50f79cd84ad2730d21dbe395fa6fae2d76c065377038a5042.png" title=" vane clicks on Primera categor&iacute;a de pruebas" width="1366"/>
+                <img src="c865d76f21940255ae0e1d63bbd0af2c64aa59d1cf99122985e6da5fa39a34f5.png" title=" vane clicks on Primera categor&iacute;a de pruebas (completed)" width="1366"/>
+                <img src="c865d76f21940255ae0e1d63bbd0af2c64aa59d1cf99122985e6da5fa39a34f5.png" title=" Vane wait" width="1366"/>
+                <img src="bca4ac94013fc80adf9f39a9d3ad6b3480e6a43c51375c2b1f205df98262d830.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="bca4ac94013fc80adf9f39a9d3ad6b3480e6a43c51375c2b1f205df98262d830.png" title=" vane clicks on CATEGORIA TEXT BOX" width="1366"/>
+                <img src="4a25296adb0257b746d0d86799bc05a2ebaa2b94479d23698ef19ba141cd60fc.png" title=" vane clicks on CATEGORIA TEXT BOX (completed)" width="1366"/>
+                <img src="4a25296adb0257b746d0d86799bc05a2ebaa2b94479d23698ef19ba141cd60fc.png" title=" Vane wait" width="1366"/>
+                <img src="a4d9708b94c57b68c28f6e5a7dd6c9549a4bf9e5ab573b5ad29be164eb185819.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="31ae037c4cb73cb172c79004e4739fdca9dfd3c1b9f1c277c09099b29761f031.png" title=" Vane wait" width="1366"/>
+                <img src="31ae037c4cb73cb172c79004e4739fdca9dfd3c1b9f1c277c09099b29761f031.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="31ae037c4cb73cb172c79004e4739fdca9dfd3c1b9f1c277c09099b29761f031.png" title=" vane enters 'vanessa jaramillo sanchez' into primer elemento del formulario PARA INGRESAR" width="1366"/>
+                <img src="796cd0114ebf43e8d11a1f99401da5ce641e7d444b659ebb5a828aa3058fd9ef.png" title=" vane enters 'vanessa jaramillo sanchez' into primer elemento del formulario PARA INGRESAR (completed)" width="1366"/>
+                <img src="cf0b3099cfa8852cd81b963378204d0731783aeae915ddf245744be3f8ba7bd4.png" title=" Vane wait" width="1366"/>
+                <img src="cf0b3099cfa8852cd81b963378204d0731783aeae915ddf245744be3f8ba7bd4.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="cf0b3099cfa8852cd81b963378204d0731783aeae915ddf245744be3f8ba7bd4.png" title=" vane enters 'vane1995@gmail.com' into SEGUNDO elemento del formulario PARA INGRESAR" width="1366"/>
+                <img src="ad6972c6d2c10e20d7dae40c0a4eaaea10e56cfc23e25ae7e5c1fdedac1c5d8d.png" title=" vane enters 'vane1995@gmail.com' into SEGUNDO elemento del formulario PARA INGRESAR (completed)" width="1366"/>
+                <img src="ad6972c6d2c10e20d7dae40c0a4eaaea10e56cfc23e25ae7e5c1fdedac1c5d8d.png" title=" Vane wait" width="1366"/>
+                <img src="ad6972c6d2c10e20d7dae40c0a4eaaea10e56cfc23e25ae7e5c1fdedac1c5d8d.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="ad6972c6d2c10e20d7dae40c0a4eaaea10e56cfc23e25ae7e5c1fdedac1c5d8d.png" title=" vane enters 'Antioquia, Colombia' into tercer elemento del formulario PARA INGRESAR" width="1366"/>
+                <img src="b636f69b469e55beeeddda1cb74a290eb8c7da00da0c8465864fabc20df29039.png" title=" vane enters 'Antioquia, Colombia' into tercer elemento del formulario PARA INGRESAR (completed)" width="1366"/>
+                <img src="b636f69b469e55beeeddda1cb74a290eb8c7da00da0c8465864fabc20df29039.png" title=" Vane wait" width="1366"/>
+                <img src="b636f69b469e55beeeddda1cb74a290eb8c7da00da0c8465864fabc20df29039.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="b636f69b469e55beeeddda1cb74a290eb8c7da00da0c8465864fabc20df29039.png" title=" vane enters 'Antioquia, Colombia' into Cuarto elemento del formulario PARA INGRESAR" width="1366"/>
+                <img src="30b4cd54026a9c0db83faa3ea71f107795a60d61481c4908912dfe2edf5eb11e.png" title=" vane enters 'Antioquia, Colombia' into Cuarto elemento del formulario PARA INGRESAR (completed)" width="1366"/>
+                <img src="30b4cd54026a9c0db83faa3ea71f107795a60d61481c4908912dfe2edf5eb11e.png" title=" Vane wait" width="1366"/>
+                <img src="30b4cd54026a9c0db83faa3ea71f107795a60d61481c4908912dfe2edf5eb11e.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="24676a87d44f863a19da83afd18dc23badd6305fb6cee01b2f8aad3b98a9f5f5.png" title=" Vane wait" width="1366"/>
+                <img src="24676a87d44f863a19da83afd18dc23badd6305fb6cee01b2f8aad3b98a9f5f5.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="24676a87d44f863a19da83afd18dc23badd6305fb6cee01b2f8aad3b98a9f5f5.png" title=" vane clicks on BOTON submit para enviar el formulario diligenciado" width="1366"/>
+                <img src="5acf9ddc33ce63dd667410a58f62525c8eb766471a331b727041187cec062313.png" title=" vane clicks on BOTON submit para enviar el formulario diligenciado (completed)" width="1366"/>
+                <img src="5acf9ddc33ce63dd667410a58f62525c8eb766471a331b727041187cec062313.png" title=" Vane wait" width="1366"/>
+                <img src="f12c6d6b3d06c9baba417495fc4122fa0b844ac618adf029cc3e8dfe7a486bee.png" title=" Vane wait (completed)" width="1366"/>
+                <img src="f12c6d6b3d06c9baba417495fc4122fa0b844ac618adf029cc3e8dfe7a486bee.png" title=" Cuando el usuario llena todo el formulario" width="1366"/>
+                <img src="f12c6d6b3d06c9baba417495fc4122fa0b844ac618adf029cc3e8dfe7a486bee.png" title=" Vane text box (completed)" width="1366"/>
+                <img src="f12c6d6b3d06c9baba417495fc4122fa0b844ac618adf029cc3e8dfe7a486bee.png" title=" Entonces el usuario valida la informacion diligenciada" width="1366"/>
+                <img src="f12c6d6b3d06c9baba417495fc4122fa0b844ac618adf029cc3e8dfe7a486bee.png" title=" Then form should be (true): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.82</span>
+</div>
+</body>
+</html>
