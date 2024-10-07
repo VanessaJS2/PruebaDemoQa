@@ -22,7 +22,7 @@ public class RadioButtom implements Task {
                 Wait.theSeconds(1),
                 Scroll.to((CATEGORIAWEBTABLES)),
                 Click.on(Elements.getCHECKBOXRADIOBUTON(2)),
-                Wait.theSeconds(10)
+                Wait.theSeconds(1)
         );
     }
 

@@ -42,7 +42,7 @@ public class WebTables implements Task {
                         Enter.theValue(SALARY).into((WEBTABLESFORMSALARY)),
                         Enter.theValue(DEPART).into((WEBTABLESFORMDEPARMENT)),
                         Click.on(WEBTABLESBUTTOMSUBMIT),
-                        Wait.theSeconds(10)
+                        Wait.theSeconds(2)
                 );
                 break;
 
