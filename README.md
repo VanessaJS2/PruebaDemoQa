@@ -16,4 +16,4 @@ Para la realización de las pruebas automatizadas que contiene este proyecto se 
 - Java
 - IntelliJ IDEA
 - Gradle
-- Github
+- Git hub
